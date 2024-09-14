@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "Agriculture DETR"
+version = "0.0.1"
+description = "Agriculture Dectection By Using DETR Series"
+authors = ["YuchenZhou yuchenzhou2001@163.com"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
