@@ -1,4 +1,4 @@
-from test import hardware_detect
+from test import self_test
 
 if __name__ == '__main__':
-    hardware_detect()
+    self_test()
