@@ -51,10 +51,8 @@ def network_test(device: str):
 
 def self_test():
     logger.info('开始自检...')
-    current_os = platform.system()
 
-    device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
-
+    device = hardware_test()
 
     logger.info('在 CPU 上测试...')
     network_test('cpu')
